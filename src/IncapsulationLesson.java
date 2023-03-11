@@ -15,20 +15,20 @@ class Worker {
     public String getProfession() {
         return profession;
     }
-    public void setProfession(String userProf) {
-        profession = userProf;
+    public void setProfession(String profession) {
+        this.profession = profession;
     }
     public int getAge() {
         return age;
     }
-    public void setAge(int userAge) {
-        age = userAge;
+    public void setAge(int age) {
+        this.age = age;
     }
     public int getExp() {
         return exp;
     }
-    public void setExp(int userExp) {
-        exp = userExp;
+    public void setExp(int exp) {
+        this.exp = exp;
     }
     void speak() {
         System.out.println("Привет, я " + profession + ", мне " + age + " лет, и у меня " + exp + " трудового стажа.");
